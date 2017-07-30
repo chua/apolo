@@ -1,0 +1,95 @@
+<div id="accordion" role="tablist" aria-multiselectable="true">
+
+  <div class="card">
+    <div class="card-header" role="tab" id="headingOne">
+      <h5 class="mb-0">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Inmovilización vehículo a disposición Atestados
+        </a>
+      </h5>
+    </div>
+    <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+      <div class="card-block">
+        <div class="btn-clipboard">
+          <button class="btn btn-default" >copiar</button>
+        </div>
+        <app-inmoviliza-veh-atestados></app-inmoviliza-veh-atestados>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" role="tab" id="headingTwo">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Inmovilización vehículo a disposición Atestados con prohibición de conducir
+        </a>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="card-block">
+        <app-levanta-inmoviliza-veh-prohibe></app-levanta-inmoviliza-veh-prohibe>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" role="tab" id="headingThree">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Levantamiento de Inmovilización
+        </a>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="card-block">
+        <app-levanta-inmoviliza-veh></app-levanta-inmoviliza-veh>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" role="tab" id="heading4">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+          Información asistencia jurídica gratuita (Resumida)
+        </a>
+      </h5>
+    </div>
+    <div id="collapse4" class="collapse" role="tabpanel" aria-labelledby="heading4">
+      <div class="card-block">
+        <app-info-asist-juridica-resumida></app-info-asist-juridica-resumida>
+      </div>
+    </div>
+  </div>
+
+ 
+</div>
+<br/>&nbsp;
+
+<!--
+<div class="row">
+  <div class="col-sm-12">
+    <h3>Copy from text -- text</h3> Click this button, it will copy the text from the input by referring to the <strong>text content</strong>
+    <div class="input-group">
+      <input type="text" class="form-control" [(ngModel)]="text" placeholder="content will be copy after click the copy button">
+      <span class="input-group-btn">
+        <button class="btn btn-default" [class.btn-success]= "isCopied1" type="button" ngxClipboard [cbContent]="text" (cbOnSuccess)="isCopied1 = true">copy</button>
+      </span>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <h3>Copy from text -- target</h3> Click this button, it will copy the text from the input by referring to the <strong>input element</strong>
+    <div class="input-group">
+      <input type="text" class="form-control" [(ngModel)]="text2" placeholder="content will be copy after click the copy button"
+        #inputTarget>
+      <span class="input-group-btn">
+        <button class="btn btn-default" [class.btn-success]= "isCopied2" type="button" [ngxClipboard]="inputTarget" (cbOnSuccess)="isCopied2 = true">copy</button>
+      </span>
+    </div>
+  </div>
+</div>
+
+-->

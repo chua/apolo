@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~font-awesome/css/font-awesome.css";
+/* You can add global styles to this file, and also import other style files */
+
+.ng-valid[required], .ng-valid.required  {
+  border-left: 5px solid #42A948; /* green */
+}
+
+.ng-invalid:not(form)  {
+  border-left: 5px solid #a94442; /* red */
+}
+
+
+.btn-clipboard {
+  display: block;
+  position: relative;
+  float: right;
+  box-sizing: inherit;
+}
+
+
+
+.atestado-titulo {
+  font-size: 16pt;
+  color: black;
+  background-color: silver;
+  text-align: justify;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  padding: 1rem;
+}
+
+.diligencia-titulo {
+  font-size: 12pt;
+  color: black;
+  background-color: silver;
+  text-align: justify;
+  font-weight: bolder;
+}
+
+
+
+.diligencia-parrafo {
+  text-indent: 2rem;
+  text-align: justify;
+}
+
+.diligencia-tabla {
+  border-bottom: 1px solid black;
+}
+
+.negrita {
+  font-weight: bold;
+}
+
+.subrayado {
+  text-decoration: underline;
+}
+
